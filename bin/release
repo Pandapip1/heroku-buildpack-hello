@@ -1,9 +1,0 @@
-#!/bin/sh
-
-cat << EOF
----
-config_vars:
-  PATH: jre/bin:bin
-default_process_types:
-  minecraft: java -jar server.jar
-EOF
